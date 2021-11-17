@@ -930,4 +930,33 @@ input[type="checkbox"] {
   cursor: pointer;
 }
 
+.hidden {
+  display: none!important;
+}
+
+@media screen and (max-width: 1239px) {
+  .sm-hidden {
+    display: none!important;
+  }
+
+  .sm-show {
+    display: inherit!important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .xs-font-40 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .xs-p32 {
+    padding: 32px;
+  }
+
+  .xs-hidden {
+    display: none!important;
+  }
+}
+
 
